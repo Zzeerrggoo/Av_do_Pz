@@ -35,19 +35,15 @@ module.exports = {
       },
       isNotWorking: {
         type: Sequelize.BOOLEAN,
-        allowNull: false,
       },
       favouriteDays: {
         type: Sequelize.STRING,
-        allowNull: false,
       },
       favouriteTime: {
         type: Sequelize.STRING,
-        allowNull: false,
       },
       priority: {
         type: Sequelize.INTEGER,
-        allowNull: false,
       },
       createdAt: {
         allowNull: false,

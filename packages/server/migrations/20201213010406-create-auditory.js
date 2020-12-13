@@ -19,7 +19,6 @@ module.exports = {
       },
       auditoryName: {
         type: Sequelize.STRING,
-        allowNull: false,
       },
       notUsed: {
         type: Sequelize.BOOLEAN,
