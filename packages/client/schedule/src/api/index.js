@@ -2,7 +2,9 @@ import axios from 'axios';
 import config from '../app/config';
 import ScheduleApi from './ScheduleApi';
 
-const {api: {http}} = config;
+const {
+  api: {http},
+} = config;
 
 const client = axios.create(http);
 

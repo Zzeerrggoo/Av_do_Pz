@@ -6,7 +6,7 @@ class ScheduleApi {
     this.url = '/schedule';
   }
 
-  getAuditoryTypes = (data) => {
+  getAuditoryTypes = () => {
     return this.#_client.get(`${this.url}/auditoryTypes`);
   };
 
